@@ -1,0 +1,33 @@
+Instructions:
+A folder called Virality_Predictor is expected to be under Home directory.
+~/Virality_Predictor/
+Folder contents:
+~/Virality_Predictor/ Collaborative_Filtering_EN.ipynb Collaborative_Filtering_EN_PT.ipynb Collaborative_Filtering_PT.ipynb Collaborative_Filtering_Utils.py
+TFIDF-Regression-EN.ipynb TFIDF-Regression-PT.ipynb TFIDF_Regression_Utils.py
+TFIDF_Classification_EN.ipynb TFIDF_Classification_PT.ipynb TFIDF_Classification_Utils.py
+Utils.py
+data_analysis_articles.ipynb data_analysis_users.ipynb
+nltk_data/ corpora
+datasets/
+cleaned_articles_test_EN_text.csv cleaned_articles_test_EN_upsampled_text.csv cleaned_articles_test_PT_text.csv cleaned_articles_test_PT_upsampled_text.csv cleaned_articles_train_EN_text.csv cleaned_articles_train_EN_upsampled_text.csv cleaned_articles_train_PT_text.csv cleaned_articles_train_PT_upsampled_text.csv shared_articles.csv
+users_interactions.csv
+models/
+CF_EN_PT_norm.pkl Classification_EN_pipeline.pkl Classification_PT_pipeline.pkl CF_EN_PT_raw.pkl CF_PT_norm.pkl
+CF_PT_raw.pkl Regression_EN_pipeline.pkl Regression_PT_pipeline.pkl
+To run the models one should simply start run the ‘jupyter notebook’ command from command line. Notebooks show latest state of the models. Models are under the /models directory
+ 
+Each .ipynb file corresponds to a problem, such as Collaborative Filtering using Articles in English (Collaborative_Filtering_EN.ipynb)
+In each jupyter notebook there is a commented cell where you can find the command for loading the corresponding model.
+Below packages are installed in the project’s virtualenv.
+Package Version
+-------------------- ipykernel
+ipython ipython-genutils ipywidgets
+jupyter jupyter-client jupyter-console jupyter-core matplotlib
+nltk
+notebook
+numpy
+pandas pickle-mixin pickleshare
+pip python-dateutil regex scikit-image scikit-learn scikit-surprise scipy
+--------- 5.3.4 7.17.0 0.2.0 7.5.1 1.0.0 6.1.6 6.1.0 4.6.3 3.3.1
+3.5
+6.1.3 1.16.3 1.1.0 1.0.2 0.7.5 20.2.2 2.8.0 2020.7.14 0.14.2 0.20.0 1.1.1 1.3.0
