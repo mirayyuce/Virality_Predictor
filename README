@@ -1,3 +1,5 @@
+Virality Predictor Project using 'https://www.kaggle.com/gspmoreira/articles-sharing-reading-from-cit-deskdrop?select=shared_articles.csv' dataset
+
 Instructions:
 A folder called Virality_Predictor is expected to be under Home directory.
 ~/Virality_Predictor/
@@ -19,15 +21,3 @@ To run the models one should simply start run the ‘jupyter notebook’ command
 Each .ipynb file corresponds to a problem, such as Collaborative Filtering using Articles in English (Collaborative_Filtering_EN.ipynb)
 In each jupyter notebook there is a commented cell where you can find the command for loading the corresponding model.
 Below packages are installed in the project’s virtualenv.
-Package Version
--------------------- ipykernel
-ipython ipython-genutils ipywidgets
-jupyter jupyter-client jupyter-console jupyter-core matplotlib
-nltk
-notebook
-numpy
-pandas pickle-mixin pickleshare
-pip python-dateutil regex scikit-image scikit-learn scikit-surprise scipy
---------- 5.3.4 7.17.0 0.2.0 7.5.1 1.0.0 6.1.6 6.1.0 4.6.3 3.3.1
-3.5
-6.1.3 1.16.3 1.1.0 1.0.2 0.7.5 20.2.2 2.8.0 2020.7.14 0.14.2 0.20.0 1.1.1 1.3.0
